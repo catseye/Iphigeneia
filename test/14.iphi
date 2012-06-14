@@ -1,0 +1,11 @@
+(* Test 'loop ...' and 'repeat' *)
+
+var a in a :=
+    let c = 5 in let d = 1 in
+        loop
+	    if c = 0 then
+	        d
+	    else
+	        let d = d * c in
+	            let c = c - 1 in
+		        repeat

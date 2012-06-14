@@ -1,0 +1,7 @@
+(* Echo input to output until the first space *)
+var x in
+  while x /= 32 do
+    begin
+      x := input c in c;
+      print x
+    end

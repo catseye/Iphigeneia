@@ -1,0 +1,3 @@
+(* Test 'let ... in ...' *)
+
+var a in a := let b = 7 in 10 - b;

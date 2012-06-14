@@ -1,0 +1,6 @@
+(* Test 'begin ... end' *)
+
+var k in begin
+    k := 5;
+    k := k + 1
+end

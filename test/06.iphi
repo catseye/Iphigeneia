@@ -1,0 +1,10 @@
+(* Test 'while ... do ...' *)
+
+var i in var j in begin
+    i := 100;
+    j := 0;
+    while i > 0 do begin
+        j := j + i;
+	i := i - 1
+    end
+end

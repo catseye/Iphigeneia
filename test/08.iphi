@@ -1,0 +1,8 @@
+(* Test 'if ... then ... else' expression with negative result *)
+
+var a in var b in var c in
+begin
+    a := 10;
+    b := 2;
+    c := if a > 20 then a - b else a / b
+end

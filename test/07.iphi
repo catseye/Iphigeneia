@@ -1,0 +1,14 @@
+(* Test 'while ... do ...' *)
+
+var a in var b in var c in
+begin
+    a := 10;
+    b := 1;
+    c := 2;
+    while a > 0 do
+        begin
+	    b := b * c;
+	    c := c + b;
+	    a := a - 1
+	end
+end
