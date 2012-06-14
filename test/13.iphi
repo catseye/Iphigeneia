@@ -1,8 +1,0 @@
-(* Test that 'let ... in ...' does shadow *)
-
-var a in var b in
-begin
-    a := 2;
-    b := 3;
-    a := let b = 7 in a * b
-end

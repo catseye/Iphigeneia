@@ -1,9 +1,0 @@
-(* Test 'if ... then ... else' command with negative result *)
-
-var i in var j in begin
-    i := 2;
-    if i > 4 then
-      j := i * 2
-    else
-      j := i + 1
-end

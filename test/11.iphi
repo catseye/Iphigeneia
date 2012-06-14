@@ -1,8 +1,0 @@
-(* Test 'valueof ... in ...' *)
-
-var a in var b in begin
-    a := 10;
-    b := valueof c in begin
-        c := a * 2
-    end + 7
-end

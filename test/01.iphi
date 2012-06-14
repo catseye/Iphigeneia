@@ -1,3 +1,0 @@
-(* Test 'var ... in ...' and assignment *)
-
-var k in k := 5
