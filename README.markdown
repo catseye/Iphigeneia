@@ -93,11 +93,11 @@ work exclusively on their own, local store.)
 
 #### `let` name `=` expr[0] `in` expr[1]
 
-The `let` construct establishes a new binding. The expression expr~0~ is
+The `let` construct establishes a new binding. The expression expr[0] is
 evaluated, and the result is associated with the given name during the
-evaluation of expr~1~. That is, where-ever the name appears in expr~1~
-or any sub-expression of expr~1~, it is treated as if it had the value
-of expr~0~. Note however that embedded commands (such as those appearing
+evaluation of expr[1]. That is, where-ever the name appears in expr[1]
+or any sub-expression of expr[1], it is treated as if it had the value
+of expr[0]. Note however that embedded commands (such as those appearing
 in a `valueof`) are not considered to be sub-expressions, and the
 influence of `let` bindings does not descend into them.
 
