@@ -4,7 +4,7 @@ Test Suite for Iphigeneia
 This test suite is in the format of Falderal version 0.7.
 
     -> Functionality "Interpret Iphigeneia program" is implemented by
-    -> shell command "(cat >foo.txt && src/iphi foo.txt)"
+    -> shell command "src/iphi %(test-file)"
 
     -> Tests for functionality "Interpret Iphigeneia program"
 

@@ -1,0 +1,6 @@
+syntax: glob
+
+*.hi
+*.o
+*.exe
+iphi
