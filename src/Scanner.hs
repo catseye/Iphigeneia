@@ -36,7 +36,7 @@
 
 module Scanner where
 
-import Char
+import Data.Char
 
 data Token = Ident String
            | IntLit Integer
