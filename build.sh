@@ -1,13 +1,13 @@
 #!/bin/sh
 
-if [ -z `which ghc` -a -z x`which runhugs` ]; then
+if [ x`which ghc` = x -a x`which runhugs` = x ]; then
     echo "Neither ghc nor runhugs found on search path."
     exit 1
 fi
 
 mkdir -p bin
 
-if [ -z `which ghc` -o ! -z $USE_HUGS ]; then
+if [ x`which ghc` = x -o ! x$USE_HUGS = x ]; then
     # create script to run with Hugs
     cat >bin/iphi <<'EOF'
 #!/bin/sh
