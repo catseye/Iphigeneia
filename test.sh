@@ -1,3 +1,3 @@
 #!/bin/sh
 
-falderal test tests/Iphigeneia.markdown
+./build.sh && falderal test tests/Iphigeneia.markdown
