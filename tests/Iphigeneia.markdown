@@ -1,10 +1,10 @@
 Test Suite for Iphigeneia
 =========================
 
-This test suite is in the format of Falderal version 0.7.
+This test suite is in the format of Falderal version 0.9.
 
     -> Functionality "Interpret Iphigeneia program" is implemented by
-    -> shell command "bin/iphi %(test-file)"
+    -> shell command "bin/iphi %(test-body-file)"
 
     -> Tests for functionality "Interpret Iphigeneia program"
 
